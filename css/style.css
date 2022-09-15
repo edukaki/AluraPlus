@@ -12,25 +12,31 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.container{
+.container__header{
     height: 100vh;
     padding: 0 2rem;
+}
+
+.container__section{
+    height: 90vh;
+    margin: 0 3rem;
 }
 
 .container__btn{
     background-color: var(--blue-sky);
     border-radius: 10px;
     color: var(--white-main);
+    display: inline-block;
     font-weight: 300;
-    margin: .5rem auto;
     padding: 1rem;
+    text-align: center;
 }
 
 .l-header{
     align-items: center;
     background: url(../img/Background.png) center / contain no-repeat;
     display: flex;
-    width: 100vw;
+    width: 100%;
 }
 .c-banner{
     display: flex;
@@ -49,6 +55,7 @@ body{
 }
 
 .c-banner__btn{
+    margin: .5rem auto;
     width: 90%;
 }
 
@@ -62,6 +69,36 @@ body{
     color: var(--grey-info);
     font-size: .85rem;
     font-weight: 200;
+}
+
+.c-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.c-section__description{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.c-section__image{
+    width: 30%;
+}
+
+.c-section__title{
+    font-size: 3rem;
+}
+
+.c-section__description > .container__btn:first-of-type{
+    width: 11rem;
+}
+
+.c-section__info{
+    font-weight: 400;
+    color: var(--grey-info);
+    line-height: 1.5rem;
 }
 
 @media screen and (min-width:768px){
