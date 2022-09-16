@@ -1,0 +1,23 @@
+.l-footer{
+    margin: 10rem 2rem 5rem 2rem;
+    text-align: center;
+}
+
+.l-footer__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.l-footer__item__link{
+    color: var(--white-main);
+}
+
+.l-footer__list__item{
+    padding: .5rem;
+}
+
+.l-footer__text{
+    color: var(--grey-info);
+}

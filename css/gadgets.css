@@ -1,5 +1,6 @@
 .c-gadgets{
     text-align: center;
+    margin-top: 10rem;
 }
 
 .c-gadgets__list{
@@ -19,10 +20,14 @@
 }
 
 .c-gadgets__subtitle{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:1024px){
+
+    .c-gadgets{
+        margin-top: 5rem;
+    }
 
     .c-gadgets__title{
         font-size: 2rem;
