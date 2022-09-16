@@ -1,0 +1,30 @@
+.c-gadgets{
+    text-align: center;
+}
+
+.c-gadgets__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.c-gadgets__image{
+    max-width: 300px;
+}
+
+.c-gadgets__title{
+    grid-column: 1/4;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.c-gadgets__subtitle{
+    font-size: 1.75rem;
+}
+
+@media screen and (max-width:480px){
+
+    .c-gadgets__title{
+        font-size: 2rem;
+    }
+}
